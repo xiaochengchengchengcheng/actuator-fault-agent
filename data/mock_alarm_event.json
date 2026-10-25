@@ -1,0 +1,15 @@
+{
+  "event_id": "alarm-20261025-0001",
+  "source_system": "eol-fault-detector",
+  "actuator_id": "RA-2407-018",
+  "station": "EOL-02",
+  "product_model": "RA-60",
+  "alarm_code": "EOL-TQ-LOW",
+  "alarm_message": "输出扭矩低于下限并伴随异常振动",
+  "severity": "medium",
+  "occurred_at": "2026-10-25T01:15:00+08:00",
+  "metadata": {
+    "line": "assembly-line-1",
+    "tester": "EOL-02"
+  }
+}

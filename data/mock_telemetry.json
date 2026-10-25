@@ -1,0 +1,55 @@
+[
+  {
+    "actuator_id": "RA-2407-018",
+    "station": "EOL-02",
+    "captured_at": "2026-10-25T00:45:00+08:00",
+    "source": "mock-eol",
+    "quality": "good",
+    "values": {
+      "output_torque_nm": 118.4,
+      "output_torque_min_nm": 126.0,
+      "vibration_rms_mm_s": 5.8,
+      "no_load_current_a": 3.4,
+      "backlash_arcmin": 7.2,
+      "backlash_max_arcmin": 6.0,
+      "position_error_deg": 0.18,
+      "temperature_rise_c": 38.0,
+      "insulation_test_pass": true,
+      "hipot_test_pass": true,
+      "firmware_version": "2.3.1",
+      "process_revision": "EOL-R12"
+    }
+  },
+  {
+    "actuator_id": "RA-2407-021",
+    "station": "EOL-02",
+    "captured_at": "2026-10-25T00:52:00+08:00",
+    "source": "mock-eol",
+    "quality": "good",
+    "values": {
+      "output_torque_nm": 131.2,
+      "output_torque_min_nm": 126.0,
+      "vibration_rms_mm_s": 2.1,
+      "no_load_current_a": 2.2,
+      "backlash_arcmin": 4.8,
+      "backlash_max_arcmin": 6.0,
+      "position_error_deg": 0.12,
+      "temperature_rise_c": 34.0,
+      "insulation_test_pass": true,
+      "hipot_test_pass": true
+    }
+  },
+  {
+    "actuator_id": "RA-2407-099",
+    "station": "SAFETY-01",
+    "captured_at": "2026-10-25T01:02:00+08:00",
+    "source": "mock-safety-tester",
+    "quality": "good",
+    "values": {
+      "insulation_test_pass": false,
+      "hipot_test_pass": false,
+      "temperature_rise_c": 28.0
+    }
+  }
+]
+

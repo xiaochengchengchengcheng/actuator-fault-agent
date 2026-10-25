@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "actuator_fault_agent": "./src/actuator_fault_agent/graph/builder.py:graph"
+  },
+  "env": ".env"
+}
+
